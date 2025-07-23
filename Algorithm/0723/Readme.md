@@ -14,7 +14,7 @@ code[idx]가 "1"이면 mode를 1에서 0으로 바꿉니다.
 
 단, 시작할 때 mode는 0이며, return 하려는 ret가 만약 빈 문자열이라면 대신 "EMPTY"를 return 합니다.
 
-'''
+```
 def solution(code):
     mode = 0
     ret = ""
@@ -31,4 +31,4 @@ def solution(code):
                 ret += code[idx]
             
     return ret if ret else "EMPTY"
-    '''
+```
